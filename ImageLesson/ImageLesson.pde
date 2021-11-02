@@ -1,4 +1,4 @@
-//Image Lesson- Halloween
+//Image Lesson - Halloween
 //Aspect Ratio Reminder
 //
 PImage pic1, pic2;
@@ -6,11 +6,11 @@ float rectXPic1, rectYPic1, rectWidthPic1, rectHeightPic1;
 float rectXPic2, rectYPic2, rectWidthPic2, rectHeightPic2;
 //
 // Geometry
-size(800, 600); //fullScreen(); //displayWidth, displayHeight
+size(800, 600); //fullScreen(); // displayWidth, displayHeight
 //
 //Load Images
-pic1 = loadImage("MSDHALL_EC004.jpg"); //4032x3024, Landscape
-pic2 = loadImage("2-1595002667.png"); //320x320, Square
+pic1 = loadImage("../MSDHALL_EC004.jpg"); //4032x3024, Landscape
+pic2 = loadImage("../2-1595002667.png"); //320x320, Square
 //
 //Variable Population
 rectXPic1 = width*1/4;
